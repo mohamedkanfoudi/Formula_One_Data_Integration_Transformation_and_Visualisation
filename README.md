@@ -4,6 +4,10 @@ Our datawarehousing model of the solution :
 
 ![modele_DW](https://github.com/mohamedkanfoudi/Formula_One_Data_Integration_Transformation_and_Visualisation/assets/76444482/ed7b6915-316a-4855-b948-0d50ab9711f7)
 
+We execute our pipelines in Azure Data Factory to load all json files from the website to our container "raw" inside Azure Data Lake Gen 2 :
+
+![raw_container](https://github.com/mohamedkanfoudi/Formula_One_Data_Integration_Transformation_and_Visualisation/assets/76444482/ed0d9b7d-da44-4428-8f8a-27932111d1c8)
+
 We realize a dashboard with the "Charts" option in Azure Databricks :
 
 ![Dashboard_nbr_points_by_driver_name](https://github.com/mohamedkanfoudi/Formula_One_Data_Integration_Transformation_and_Visualisation/assets/76444482/d7eea86f-843b-4b6d-a2f7-b5b5fa0c4161)
