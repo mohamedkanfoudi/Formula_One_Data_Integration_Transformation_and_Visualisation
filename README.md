@@ -6,6 +6,12 @@ Our datawarehousing model of the solution :
 
 We execute our pipelines in Azure Data Factory to load all json files from the website to our container "raw" inside Azure Data Lake Gen 2 :
 
+![DataCopy](https://github.com/mohamedkanfoudi/Formula_One_Data_Integration_Transformation_and_Visualisation/assets/76444482/fd4992dc-2f6b-4371-b0ae-5cc3183300c9)
+
+We schedule the execution of our transformations when a new data arrived:
+
+![DataTransform](https://github.com/mohamedkanfoudi/Formula_One_Data_Integration_Transformation_and_Visualisation/assets/76444482/45c5aee5-3c0e-456a-b708-d079a7d345e9)
+
 ![raw_container](https://github.com/mohamedkanfoudi/Formula_One_Data_Integration_Transformation_and_Visualisation/assets/76444482/ed0d9b7d-da44-4428-8f8a-27932111d1c8)
 
 We realize a dashboard with the "Charts" option in Azure Databricks :
